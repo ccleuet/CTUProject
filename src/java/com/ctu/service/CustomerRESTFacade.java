@@ -27,7 +27,7 @@ import org.springframework.transaction.annotation.Transactional;
  *
  * @author Christophe
  */
-@Path("/api/customer/")
+@Path("api/customer/")
 public class CustomerRESTFacade {
 
     @PersistenceContext(unitName = "CTUProjectPU")

@@ -27,7 +27,7 @@ import org.springframework.transaction.annotation.Transactional;
  *
  * @author Christophe
  */
-@Path("/api/pizza/")
+@Path("api/pizza/")
 public class PizzaRESTFacade {
 
     @PersistenceContext(unitName = "CTUProjectPU")
